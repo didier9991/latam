@@ -56,6 +56,99 @@
       <p>&copy; 2025 Tu Agencia de Viajes - Todos los derechos reservados.</p>
     </div>
   </footer>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #003366;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.promo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.promo-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.promo-card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.promo-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.promo-card h2 {
+  margin: 15px 0 10px;
+}
+
+.promo-card p {
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.promo-card a {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
 </body>
 </html>
